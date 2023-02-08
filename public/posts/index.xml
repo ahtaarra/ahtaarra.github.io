@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Taskin&#39;s site</title>
-    <link>http://example.org/posts/</link>
+    <link>https://ahanaftaskinarrafee.com/posts/</link>
     <description>Recent content in Posts on Taskin&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Feb 2023 14:30:35 +0000</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Feb 2023 14:30:35 +0000</lastBuildDate><atom:link href="https://ahanaftaskinarrafee.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simple Keyboard: a keyboard that doesn&#39;t have to try</title>
-      <link>http://example.org/posts/post0/</link>
+      <link>https://ahanaftaskinarrafee.com/posts/post0/</link>
       <pubDate>Wed, 08 Feb 2023 14:30:35 +0000</pubDate>
       
-      <guid>http://example.org/posts/post0/</guid>
+      <guid>https://ahanaftaskinarrafee.com/posts/post0/</guid>
       <description>Simple Keyboard is a keyboard app for Android OS based on the AOSP Keyboard. It is available on both the F-Droid repository and the Google Play Store. And needed, its APK can be directly grabbed from the project&amp;rsquo;s Github releases page here.
-One of the reasons I moved to this keyboard had been that at the time I used to use Hacker&amp;rsquo;s Keyboard and wanted to try out something else.</description>
+One of the reasons I switched to this keyboard had been that at the time I used to use Hacker&amp;rsquo;s Keyboard and wanted to try out something else.</description>
     </item>
     
   </channel>
