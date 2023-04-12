@@ -2,6 +2,7 @@ baseURL = 'https://ahanaftaskinarrafee.com'
 languageCode = 'en-us'
 title = "Taskin's site"
 theme = 'chalk'
+ga_analytics = 'G-58CZPXPJ61'
 
 [params.chalk]
   # chalk theme parameters
