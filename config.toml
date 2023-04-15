@@ -2,6 +2,7 @@ baseURL = 'https://ahanaftaskinarrafee.com'
 languageCode = 'en-us'
 title = "Taskin's site"
 theme = 'chalk'
+googleAnalytics = 'G-15CBJRDXXB'
 
 [params.chalk]
 	# chalk theme parameters
@@ -11,4 +12,3 @@ theme = 'chalk'
 	rss_enabled = true
 	#blog_theme = 'light' # Doesn't matter if theme_toggle = true
 	local_fonts = true
-	ga_analytics = 'G-5GT9228XXZ'
