@@ -11,4 +11,4 @@ theme = 'chalk'
 	rss_enabled = true
 	#blog_theme = 'light' # Doesn't matter if theme_toggle = true
 	local_fonts = true
-	ga_analytics = 'G-58CZPXPJ61'
+	ga_analytics = 'G-5GT9228XXZ'
