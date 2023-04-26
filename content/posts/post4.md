@@ -13,7 +13,7 @@ This changed dramatically several years back sometime after I had started univer
 
 But things changed last year when I moved to Cardiff to finish my degree. In the beginnning, everything was moving so fast and there were lots of friendly people around and then, with time, it all waned and I entered a new phase where I truly understood my place in other people’s lives and realised my place in the world. I guess for me “the more things change, the more they stay the same” rang true. 
 
-These days only one of my flatmates still has meals in dining table at the kitchen. He makes small talk in a typical British fashion and is friendly overall. But he tends to eat food in silence, sometimes listening to podcasts. And, well, he seems reticent.
+These days only one of my flatmates still has meals in dining table at the kitchen. He makes small talk in a typical British fashion and is friendly overall. But he tends to eat food in silence, sometimes listening to podcasts. And, well, he sometimes seems reticent but in his opinion, he does not always have terribly interesting life events to share.
 
 However, I do not have my food in the kitchen anymore. What I do now is what I once used to do - take my food to my room and have it there, usually while watching something… maybe something funny or comforting. Maybe once or twice a month, I can be spotted eating out with others. I tend to attend ‘RLA’ organised events for my student accommodation and have meals with my friends in Bristol when I visit them. And I do still have my monthly book club meetings.
 
