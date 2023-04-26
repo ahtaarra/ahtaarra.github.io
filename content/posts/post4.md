@@ -16,4 +16,4 @@ These days only one of my flatmates still has meals in dining table at the kitch
 
 However, I don’t eat my food at the kitchen anymore. What I do now is what I once used to do - take my food to my room and have it there, usually while watching something… maybe something funny or comforting. Maybe once or twice a month, I can be spotted sharing a table with others. I tend to attend ‘RLA’ organised events for my student accommodation and have meals with my friends in Bristol when I visit them. And I do still have my monthly book club meetings.
 
-For me, a seat at the table is not about opportunities but belonging.
+For me, a seat at the table is not about opportunities but about belonging.
