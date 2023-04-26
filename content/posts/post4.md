@@ -8,7 +8,10 @@ draft: false
 ---
 Growing up I do not think other people’s idea of ‘a seat at the table’ resonated with me. Belonging from a family with both parents working full-time has meant that I have had to have most of my meals at least in the past decade alone.
 
-This changed dramatically several years back sometime after I had started university and became more outgoing. I fondly recall going out with my friends in university or even from school or college and hanging out and often having meals with them. But that ended last year when I moved to Cardiff to finish my degree.
+This changed dramatically several years back sometime after I had started university and became more outgoing. I fondly recall going out with my friends in university or even from school or college and hanging out and often having meals with them. One of the most rewarding experiences at both my internships back in Dhaka was having meals together with others at the firm. The conversations taking place during the lunch we used to have together at the first firm and the meals people tended to share near the end of the workday at the second firm only reinforced my desire to enter legal practice.
+
+
+But that ended last year when I moved to Cardiff to finish my degree.
 
 In the beginnning, everything was moving fast and there were lots of friendly people around and then, with time, it all waned and I entered a new phase where I truly understood my place in other people’s lives and realised my place in the world. I guess for me “the more things change, the more they stay the same” rang true. 
 
