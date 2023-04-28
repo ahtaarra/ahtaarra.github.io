@@ -13,6 +13,6 @@ There have even been attempts to remove the port from laptops but these have rec
 
 The market for Webcams has seemingly always been flooded with poor quality cameras and some offerings with video qualities that simply do not justify the price tag. Recently, I bought a Logitech Brio 300 only to be disappointed with the camera output which I later learned was only 2MP but cost me GBP 56 with a 20% student discount. I have since requested a return.
 
-Now let us return to my original point. By promoting the use of phone camera as computer inputs and thus taking it mainstream (since the technology and the use case has existed for years now – I remember using it several years back), they are raising the bar.
+Now let us return to my original point. By promoting the use of phone camera as computer inputs and thus taking it mainstream (since the technology and the use case has existed for years now – I remember using it several years back), they are raising the bar for everyone in the industry.
 
-I hope webcam manufacturers take this seriously and consider making more compelling products instead of just relying on the new post-COVID reality to sell those.
+I hope webcam (and laptop) manufacturers take this seriously and consider making more compelling products instead of just relying on the new post-COVID reality to sell those.
