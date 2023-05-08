@@ -1,5 +1,5 @@
 ---
-title: "A half measure to correct NTFS errors"
+title: "A half measure to treat NTFS errors"
 date: 2023-05-08T13:10:14+01:00
 tags:
  - Tech
