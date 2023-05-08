@@ -5,7 +5,7 @@ tags:
  - Tech
  - Idea
  - How-to
-draft: true
+draft: false
 ---
 # A little bit of background
 When I had finally started using a portable harddisk as a backup, the then-existing Linux kernel module was of limited capacity and the go-to option had been a FUSE-based NTFS-3G driver which had its limitations. We have come a bit far since then.
