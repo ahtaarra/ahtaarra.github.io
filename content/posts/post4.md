@@ -41,7 +41,7 @@ In the command prompt, first type `diskpart` and then `list volume` to get the a
 
 Note: Pay extra attention to the details at the table in order not to  risk messing with the wrong disk.
 
-Assuming that the volume letter is C, thing to do is to type `chkdsk \f C:` and that will both check the disk for errors and using the `/f` parameter means it will fix those too.
+Assuming that the volume letter is _C_, the thing to do now is to type `chkdsk \f C:` and that will both check the disk for errors and using the `/f` parameter means it will fix those too.
 
 # Conclusion
 This is what I have been using for the past couple of years. However, with the recent issue I first went to a free computer at my library but those have provisioning requring admin credentials to even conduct a scan which I do not have. I again solved my problem using this method.
