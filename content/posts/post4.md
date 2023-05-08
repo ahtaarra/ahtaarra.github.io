@@ -35,7 +35,7 @@ Note: Be sure to disable to stop auto-mounting services like `udiskie` during th
 Boot using the installer disk (the key to press to get to boot selection page can be different depending on the OEM; for me it is the _Escape_ key). Connect the disk to fix (It can be done after Step 3 but this makes things simpler)
 
 ### Step 2:
-After selecting the language the page with a _Install Now_ button at the centre will appear but choose the _Repair Your Computer_ option at the bottom-left corner and select the _Troubleshoot_ option from the next page. There would be an option to open the _Command Prompt_.
+After selecting the language the page with a _Install Now_ button at the centre will appear but choose _Repair Your Computer_ from the bottom-left side and select the _Troubleshoot_ option from the next page. There would be an option to open the _Command Prompt_.
 
 ### Step 3:
 In the command prompt, first type `diskpart` and then `list volume` to get the assigned drive letter of the disk to be repaired.
