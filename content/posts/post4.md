@@ -27,7 +27,7 @@ A Windows installer disk (or a writable disk along with a Windows Installer ISO 
 The starting point is Step 1 unless a bootable installer is needed to be created.
 
 ### Step 0:
-[Download official images from Microsoft](https://www.microsoft.com/en-gb/software-download/) or grab a copy from any other source and burn it to a disk using an utility like `woeusb-ng` and one of its packages [on AUR](https://aur.archlinux.org/packages/woeusb-ng) convenient for Arch-based distro users.
+[Download official images from Microsoft](https://www.microsoft.com/en-gb/software-download/) or grab a copy from any other source and burn it to a disk using a utility like `woeusb-ng` and one of its packages [on AUR](https://aur.archlinux.org/packages/woeusb-ng) convenient for Arch-based distro users.
 
 Note: Be sure to disable to stop auto-mounting services like `udiskie` during the burn process.
 
