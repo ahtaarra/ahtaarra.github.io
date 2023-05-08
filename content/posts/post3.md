@@ -1,18 +1,20 @@
 ---
-title: "Hoping for a clearer tomorrow"
-date: 2023-04-25T19:45:49+01:00
+title: "A seat at the table"
+date: 2023-04-26T11:18:06+01:00
 tags:
- - Tech
+ - Journal
  - Idea
 draft: false
 ---
+Growing up I do not think other people’s idea of ‘a seat at the table’ resonated with me. Coming from a family with both parents working full-time has meant that I have had to have most of my meals at least in the past decade alone.
 
-It has been more than half a decade since Apple decided to let go of the headphone jack from their phones and then (most) other major smartphone manufacturers followed suit. And while Sony phones and the more relatively recently launched Asus Zenfone 9 device still feature it and most lower-end phones still have it, Google decided to do away with it even on Pixel A series not too long after releasing this [ad](https://youtu.be/oJZuSVl5wjM).
+This changed dramatically several years back sometime after I had started university and became more outgoing. I fondly recall going out with my friends in university or even from school or college and hanging out and often having meals with them. One of the most rewarding experiences at both my internships back in Dhaka was having meals together with others at the firm. The conversations taking place during the lunch we used to have together at the first firm and the meals people tended to share near the end of the workday at the second firm only reinforced my desire to enter legal practice.
 
-There have even been attempts to remove the port from laptops but these have received backlash from the tech community and rightly so. But through this piece I want to express my hope for a positive change heralded by Apple through the new _Continuity Camera_ feature.
 
-The market for Webcams has seemingly always been flooded with poor quality cameras and some offerings with video qualities that simply do not justify the price tag. Recently, I bought a Logitech Brio 300 only to be disappointed with the camera output which I later learned was only 2MP but cost me GBP 56 with a 20% student discount. I have since requested a return.
+But things changed again last year when I moved to Cardiff to finish my degree. In the beginning, everything was moving so fast and there were lots of friendly people around and then, with time, it all waned and I entered a new phase where I truly understood my place in other people’s lives and realised my place in the world. I guess for me “the more things change, the more they stay the same” rang true. 
 
-Now let us return to my original point. By promoting the use of phone camera as computer inputs and thus taking it mainstream (since the technology and the use case has existed for years now – I remember using it several years back), they are raising the bar for everyone in the industry.
+These days only one of my flatmates still has meals in dining table at the kitchen. He makes small talk in a typical British fashion and is friendly overall. But he tends to eat food in silence, sometimes while listening to podcasts. And, well, he sometimes seems reticent but in his opinion, he does not always have terribly interesting life events to share.
 
-I hope webcam (and laptop) manufacturers take this seriously and consider making more compelling products instead of just relying on the new post-COVID reality to sell those.
+However, I do not have my food in the kitchen anymore. What I do now is what I once used to do - take my food to my room and have it there, usually while watching something… maybe something funny or comforting. Maybe once or twice a month, I can be spotted eating out with others. I tend to attend ‘RLA’ organised events for my student accommodation and have meals with my friends in Bristol when I visit them. And I do still have my monthly book club meetings.
+
+For me, a seat at the table is not about opportunities but about belonging.
