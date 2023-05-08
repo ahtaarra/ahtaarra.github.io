@@ -20,11 +20,10 @@ For a long time, my solution has been to borrow my dad’s work laptop for a day
 Instead of installing Windows, one could simply use the bootable drive to pass some simple bits of commands through the command prompt there to treat the drive.
 
 ## Basic Reqirements:
-
-A Windows installer disk (or a writable disk along with a Windows Installer ISO to burn that image to create one; please refer to Step 0 for this), a usable computer and, finally, the drive to fix.
+A Windows installer disk (or a writable disk along with a Windows Installer ISO to burn that image to create one; please refer to Step 0), a usable computer and, finally, the drive to fix.
 
 ## Steps:
-The starting point is Step 1 unless a bootable installer is needed to be created.
+The starting point is Step 1 unless a bootable installer needs to be created.
 
 ### Step 0:
 [Download official images from Microsoft](https://www.microsoft.com/en-gb/software-download/) or grab a copy from any other source and burn it to a disk using a utility like `woeusb-ng` and this package is conveniently available [on AUR](https://aur.archlinux.org/packages/woeusb-ng).
