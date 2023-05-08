@@ -26,7 +26,7 @@ A Windows installer disk (or a writable disk along with a Windows Installer ISO 
 ## Steps:
 
 ### Step 1:
-[Download ISO](https://www.microsoft.com/en-gb/software-download/) and burn it on a disk using a something like `woeusb-ng` and you may find one of its packages [on AUR](https://aur.archlinux.org/packages/woeusb-ng) convenient if you use an Arch-based distro.
+[Download ISO](https://www.microsoft.com/en-gb/software-download/) and burn it on a disk using a something like `woeusb-ng` and one of its packages [on AUR](https://aur.archlinux.org/packages/woeusb-ng) convenient for Arch-based distro users.
 
 Note: Be sure to disable to stop auto-mounting services like `udiskie` during the burn process.
 
@@ -34,7 +34,7 @@ Note: Be sure to disable to stop auto-mounting services like `udiskie` during th
 Boot using the installer disk (the key to press can be different depending on the OEM; for me boot drive selection is the _Escape_ key). Connect the disk to fix (It can be done after Step 3 but this makes things simpler)
 
 ### Step 3:
-After selecting the language the page with a ‘Install Now’ button at the centre will appear but choose the ‘Repair Your Computer’ option at the bottom-left corner and select the ‘Troubleshoot’ option from the next page. There would be an option to open the ‘Command Prompt’.
+After selecting the language the page with a _Install Now_ button at the centre will appear but choose the _Repair Your Computer_ option at the bottom-left corner and select the _Troubleshoot_ option from the next page. There would be an option to open the _Command Prompt_.
 
 ### Step 4:
 In the command prompt, first type `diskpart` and then `list volume` to get the assigned drive letter of the disk to be repaired.
