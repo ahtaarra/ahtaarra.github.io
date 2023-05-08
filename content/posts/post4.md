@@ -32,7 +32,7 @@ The starting point is Step 1 unless a bootable installer is needed to be created
 Note: Be sure to disable to stop auto-mounting services like `udiskie` during the burn process.
 
 ### Step 1:
-Boot using the installer disk (the key to press can be different depending on the OEM; for me boot drive selection is the _Escape_ key). Connect the disk to fix (It can be done after Step 3 but this makes things simpler)
+Boot using the installer disk (the key to press to get to boot selection page can be different depending on the OEM; for me it is the _Escape_ key). Connect the disk to fix (It can be done after Step 3 but this makes things simpler)
 
 ### Step 2:
 After selecting the language the page with a _Install Now_ button at the centre will appear but choose the _Repair Your Computer_ option at the bottom-left corner and select the _Troubleshoot_ option from the next page. There would be an option to open the _Command Prompt_.
