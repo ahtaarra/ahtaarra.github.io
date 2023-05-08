@@ -10,7 +10,7 @@ draft: false
 # A little bit of background
 When I had finally started using a portable harddisk as a backup, the then-existing Linux kernel module was of limited capacity and the go-to option had been a FUSE-based NTFS-3G driver which had its limitations. We have come a bit far since then.
 
-The current [NTFS3 driver](https://www.phoronix.com/news/NTFS3-For-Linux-5.15) has since its being merged to the mainline kernel has made it easier to deal with the format but with one exception – fixing filesystem issues.
+The current [NTFS3 driver](https://www.phoronix.com/news/NTFS3-For-Linux-5.15) since its being merged to the mainline kernel has made it easier to deal with the format but with one exception – fixing filesystem issues.
 
 Sometimes a device would accidentally get removed while mounted or, like what happened recently, a file transfer to the disk during a kernel update can render the drive unmountable on Linux.
 
@@ -31,7 +31,7 @@ A Windows installer disk (or a writable disk along with a Windows Installer ISO 
 Note: Be sure to disable to stop auto-mounting services like `udiskie` during the burn process.
 
 ### Step 2:
-Boot using the installer disk (the key to press can be different depending on the OEM; for me boot drive selection is the Escape key). Connect the disk you want to fix (It can be done after Step 3 but this makes things simpler)
+Boot using the installer disk (the key to press can be different depending on the OEM; for me boot drive selection is the _Escape_ key). Connect the disk to fix (It can be done after Step 3 but this makes things simpler)
 
 ### Step 3:
 After selecting the language the page with a ‘Install Now’ button at the centre will appear but choose the ‘Repair Your Computer’ option at the bottom-left corner and select the ‘Troubleshoot’ option from the next page. There would be an option to open the ‘Command Prompt’.
