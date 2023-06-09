@@ -44,4 +44,4 @@ Note: Pay extra attention to the details at the table in order not to  risk mess
 Assuming that the volume letter is _C_, the thing to do now is to type `chkdsk \f C:` and that will both check the disk for errors and using the `/f` parameter means it will fix those too.
 
 # Conclusion
-This is what I have been using for the past couple of years. However, with the recent issue I first went to a free computer at my library but those have provisioning requring admin credentials to even conduct a scan which I do not have. I again solved my problem using this method.
+This is what I have been using for the past couple of years. However, with the recent issue I first went to a free computer at my library but those have provisioning requring admin credentials to even conduct a scan which I do not have. The method then proved to be useful once again.
