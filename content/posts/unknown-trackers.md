@@ -3,7 +3,7 @@ title: "Unknown tracker alerts: a feature locked away in Google-land?"
 date: 2023-08-05T03:10:56+06:00
 tags:
  - Tech
-draft: true
+draft: false
 ---
 
 With this recent [blog post](https://blog.google/products/android/unknown-tracker-alert-google-android/), Google highlighted Android's new capability to detect Bluetooth-powered trackers and one thing showcased is its [manual scan feature](https://support.google.com/android/?p=manual_scan) and while Apple previously published its [Tracker Detect](https://play.google.com/store/apps/details?id=com.apple.trackerdetect) app on the Play Store in late-2021 for AirTag-compatible devices, [Google's initiative](https://arstechnica.com/gadgets/2023/05/apple-and-google-submit-joint-proposal-to-fight-malicious-use-of-tracking-devices/) might be driven by the development of joint-specification of such devices in which Apple had its input. However, taking advantage of it is hindered by the feature's discoverability in the Android world, regardless of Google's intention.
