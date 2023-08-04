@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>A half measure to treat NTFS errors - Taskin&#39;s site</title>
+
+  
+  
+    <meta name="description" content="How do you correct when a drive is corrupted? Simply go to drive Properties, from Tools tab select the option to scan for errors and then use the dialogue that comes up if any error is found or, better yet, find the dialogue through your desktop notifications when you plug in your disk. But these are simply not possible on a Linux-based system if your filesystem of choice is NTFS." />
+    <meta name="author" content="" />
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+  
+
+  <link rel="icon" type="image/x-icon" href="https://ahanaftaskinarrafee.com/images/favicon-dark.ico">
+  <link rel="apple-touch-icon" href="https://ahanaftaskinarrafee.com/images/apple-touch-icon-dark.png">
+
+  
+  
+
+  
+    
+    
+      
+    
+    <link rel="stylesheet" href="https://ahanaftaskinarrafee.com/stylesheets/dark.css">
+  
+
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://ahanaftaskinarrafee.com/custom.min.css" />
+
+  
+
+  
+  <link rel="preload stylesheet" as="style" href="https://ahanaftaskinarrafee.com/an-old-hope.min.css" />
+  <script
+    defer
+    src="https://ahanaftaskinarrafee.com/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  <meta name="generator" content="Hugo 0.116.1">
+
+  
+  
+
+  
+  
+  
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-15CBJRDXXB"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-15CBJRDXXB', { 'anonymize_ip': false });
+}
+</script>
+
+  
+  <meta property="og:title" content="A half measure to treat NTFS errors" />
+<meta property="og:description" content="How do you correct when a drive is corrupted? Simply go to drive Properties, from Tools tab select the option to scan for errors and then use the dialogue that comes up if any error is found or, better yet, find the dialogue through your desktop notifications when you plug in your disk. But these are simply not possible on a Linux-based system if your filesystem of choice is NTFS." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ahanaftaskinarrafee.com/posts/fix-ntfs-errors/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-05-08T13:10:14+01:00" />
+<meta property="article:modified_time" content="2023-05-08T13:10:14+01:00" />
+
+  
+  <meta itemprop="name" content="A half measure to treat NTFS errors">
+<meta itemprop="description" content="How do you correct when a drive is corrupted? Simply go to drive Properties, from Tools tab select the option to scan for errors and then use the dialogue that comes up if any error is found or, better yet, find the dialogue through your desktop notifications when you plug in your disk. But these are simply not possible on a Linux-based system if your filesystem of choice is NTFS."><meta itemprop="datePublished" content="2023-05-08T13:10:14+01:00" />
+<meta itemprop="dateModified" content="2023-05-08T13:10:14+01:00" />
+<meta itemprop="wordCount" content="602">
+<meta itemprop="keywords" content="Tech,Idea,How-to," />
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="A half measure to treat NTFS errors"/>
+<meta name="twitter:description" content="How do you correct when a drive is corrupted? Simply go to drive Properties, from Tools tab select the option to scan for errors and then use the dialogue that comes up if any error is found or, better yet, find the dialogue through your desktop notifications when you plug in your disk. But these are simply not possible on a Linux-based system if your filesystem of choice is NTFS."/>
+
+  
+  
+</head>
+
+
+  <body>
+    <main class="main">
+      <div class="grid grid-centered">
+        <div class="grid-cell">
+          <nav class="header-nav ">
+  <a href="/" class="header-logo" title="Taskin&#39;s site">Taskin&#39;s site</a>
+  <ul class="header-links">
+    
+    <li>
+      <a href="/about" title="About">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon-about">
+  
+  
+  <use href="https://ahanaftaskinarrafee.com/icons/about.svg#icon-about" xlink:href="https://ahanaftaskinarrafee.com/icons/about.svg#icon-about"></use>
+</svg>
+
+      </a>
+    </li>
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+      <li>
+        <a href="/index.xml" rel="noreferrer noopener" target="_blank" title="RSS">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-rss">
+  
+  
+  <use href="https://ahanaftaskinarrafee.com/icons/rss.svg#icon-rss" xlink:href="https://ahanaftaskinarrafee.com/icons/rss.svg#icon-rss"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+  </ul>
+</nav>
+
+
+
+          
+<article class="article ">
+  <header class="article-header">
+    <h1>A half measure to treat NTFS errors</h1>
+    <div class="article-list-footer">
+  <span class="article-list-date">
+    May 8, 2023
+  </span>
+  <span class="article-list-divider">-</span>
+  <span class="article-list-minutes">
+    3 minute read
+  </span>
+  
+</div>
+
+  </header>
+
+  <div class="article-content">
+    <p>How do you correct when a drive is corrupted? Simply go to drive <em>Properties</em>, from  <em>Tools</em> tab select the option to scan for errors and then use the dialogue that comes up if any error is found or, better yet, find the dialogue through your desktop notifications when you plug in your disk. But these are simply not possible on a Linux-based system if your filesystem of choice is NTFS.</p>
+<h1 id="a-little-bit-of-background">A little bit of background</h1>
+<p>When I had finally started using a portable harddisk as a backup, the then-existing Linux kernel module was of limited capacity and the go-to option had been a FUSE-based NTFS-3G driver which had its limitations. We have come a bit far since then. The current <a href="https://www.phoronix.com/news/NTFS3-For-Linux-5.15">NTFS3 driver</a> since its being merged to the mainline kernel has made it easier to deal with the format but with one exception – fixing filesystem issues.</p>
+<p>Sometimes a device would accidentally get removed while mounted or, like what happened recently, a file transfer to the disk during a kernel update can render the drive unmountable on Linux.</p>
+<p>For a long time, my solution has been to borrow my dad’s work laptop for a day or go to a friend’s place to access a Windows computer. Perhaps at one or two occassions I even briefly had windows reinstalled on my main (and only) device just for this reason. But that changed when I discovered a better way to handle it.</p>
+<h1 id="the-method">The Method</h1>
+<p>Instead of installing Windows, one could simply use the bootable drive to pass some simple bits of commands through the command prompt there to treat the drive.</p>
+<h2 id="basic-reqirements">Basic Reqirements:</h2>
+<p>A Windows installer disk (or a writable disk along with a Windows Installer ISO to burn that image to create one; please refer to Step 0), a usable computer and, finally, the drive to fix.</p>
+<h2 id="steps">Steps:</h2>
+<p>The starting point is Step 1 unless a bootable installer needs to be created.</p>
+<h3 id="step-0">Step 0:</h3>
+<p><a href="https://www.microsoft.com/en-gb/software-download/">Download official images from Microsoft</a> or grab a copy from any other source and burn it to a disk using a utility like <code>woeusb-ng</code> and this package is conveniently available <a href="https://aur.archlinux.org/packages/woeusb-ng">on AUR</a>.</p>
+<p>Note: Be sure to disable to stop auto-mounting services like <code>udiskie</code> during the burn process.</p>
+<h3 id="step-1">Step 1:</h3>
+<p>Boot using the installer disk (the key to press to get to boot selection page can be different depending on the OEM; for me it is the <em>Escape</em> key). Connect the disk to fix (It can be done after Step 3 but this makes things simpler)</p>
+<h3 id="step-2">Step 2:</h3>
+<p>After selecting the language the page with a <em>Install Now</em> button at the centre will appear but choose <em>Repair Your Computer</em> from the bottom-left side and select the <em>Troubleshoot</em> option from the next page. There would be an option to open the <em>Command Prompt</em>.</p>
+<h3 id="step-3">Step 3:</h3>
+<p>In the command prompt, first type <code>diskpart</code> and then <code>list volume</code> to get the assigned drive letter of the disk to be repaired.</p>
+<p>Note: Pay extra attention to the details at the table in order not to  risk messing with the wrong disk.</p>
+<p>Assuming that the volume letter is <em>C</em>, the thing to do now is to type <code>chkdsk \f C:</code> and that will both check the disk for errors and using the <code>/f</code> parameter means it will fix those too.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>This is what I have been using for the past couple of years. However, with the recent issue I first went to a free computer at my library but those have provisioning requring admin credentials to even conduct a scan which I do not have. The method then proved to be useful once again.</p>
+
+  </div>
+  <div class="article-share">
+    
+    
+    
+    
+    <a href="https://twitter.com/intent/tweet?text=A%20half%20measure%20to%20treat%20NTFS%20errors&url=https%3a%2f%2fahanaftaskinarrafee.com%2fposts%2ffix-ntfs-errors%2f" title="Share on Twitter" rel="noreferrer noopener" target="_blank">
+      <svg viewBox="0 0 512 512"><path d="M492 109.5c-17.4 7.7-36 12.9-55.6 15.3 20-12 35.4-31 42.6-53.6 -18.7 11.1-39.4 19.2-61.5 23.5C399.8 75.8 374.6 64 346.8 64c-53.5 0-96.8 43.4-96.8 96.9 0 7.6 0.8 15 2.5 22.1 -80.5-4-151.9-42.6-199.6-101.3 -8.3 14.3-13.1 31-13.1 48.7 0 33.6 17.2 63.3 43.2 80.7C67 210.7 52 206.3 39 199c0 0.4 0 0.8 0 1.2 0 47 33.4 86.1 77.7 95 -8.1 2.2-16.7 3.4-25.5 3.4 -6.2 0-12.3-0.6-18.2-1.8 12.3 38.5 48.1 66.5 90.5 67.3 -33.1 26-74.9 41.5-120.3 41.5 -7.8 0-15.5-0.5-23.1-1.4C62.8 432 113.7 448 168.3 448 346.6 448 444 300.3 444 172.2c0-4.2-0.1-8.4-0.3-12.5C462.6 146 479 129 492 109.5z"/></svg>
+    </a>
+    <a href="https://www.facebook.com/sharer/sharer.php?href=https%3a%2f%2fahanaftaskinarrafee.com%2fposts%2ffix-ntfs-errors%2f" title="Share on Facebook" rel="noreferrer noopener" target="_blank">
+      <svg viewBox="0 0 512 512"><path d="M288 192v-38.1c0-17.2 3.8-25.9 30.5-25.9H352V64h-55.9c-68.5 0-91.1 31.4-91.1 85.3V192h-45v64h45v192h83V256h56.4l7.6-64H288z"/></svg>
+    </a>
+  </div>
+
+  
+</article>
+
+          <footer class="footer ">
+  <p>
+    <span>&copy; 2023 <a href="https://ahanaftaskinarrafee.com">Taskin&#39;s site</a></span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo</a></span>
+    <span>Theme is based on <a href="https://github.com/nielsenramon/chalk" rel="noreferrer noopener" target="_blank">Chalk</a></span>
+  </p>
+</footer>
+
+        </div>
+      </div>
+    </main>
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://ahanaftaskinarrafee.com/javascripts/zooming.min.js"></script>
+<script src="https://ahanaftaskinarrafee.com/javascripts/retina.min.js"></script>
+<script src="https://ahanaftaskinarrafee.com/javascripts/svgxuse.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+<script src="https://ahanaftaskinarrafee.com/javascripts/vendor.min.js" ></script>
+
+
+
+
+
+<script src="https://ahanaftaskinarrafee.com/javascripts/application.min.js"></script>
+
+
+
+  </body>
+</html>
