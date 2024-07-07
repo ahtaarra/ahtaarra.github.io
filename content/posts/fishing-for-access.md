@@ -1,13 +1,13 @@
 ---
-title: "Fishing for _eduroam_ access using PSK"
+title: "Fishing for eduroam access using PSK"
 date: 2024-06-26T20:27:37+01:00
 tags:
  - Tech
  - Idea
-draft: false
+draft: true
 ---
 
-# The main bit...
+# The Main Bit...
 
 ## Situation
 One key IT issue people run into with after joining university is connecting to the _eduroam_ Wi-Fi network which is a network group operating in the UK and some other parts of the world. While they solve the cruical technical issue of privacy, secure access and scale, the connection instructions available are not always adequate for all end-users. This sometimes calls for simpler solutions as can be seen below.
@@ -20,10 +20,13 @@ Now, what still remained was accesssing the same network which also extended to 
 ## Action
 One thing I tried was was using the graphical `nm-connection-editor` tool which is something I ordinarily do not have on my system as I primarily rely on `NetworkManager` utilities. Despite following instructions for ChromeOS which advised manually adding and configuring the network and configuration files, it did not work. In the end, I concluded that the vendor-specific instructions on the university Intranet and others available on the Internet were impractical for my specific setup. Thus, my initial recourse had been to connect my laptop to the internet using my phone’s hotspot either wirelessly or through USB tethering, until, of course, I found a more convenient solution.
 
-This final solution was deceptively simple. After further research, I found on the Intranet instructions for ‘_Connecting wireless accessories to the network_’ and it provided access through another Network SSID titled ‘_*-PSK_’. This involved using university account credentials to log into a portal (in my case, it was https://guest.cardiff.ac.uk), adding the laptop’s MAC address to generate a device-specific password.
+This final solution was deceptively simple. After further research, I found on the Intranet instructions for ‘_Connecting wireless accessories to the network_’ and it provided access through another Network SSID titled ‘_*-PSK_’. This involved using university account credentials to log into a portal (in my case, it followed https://guest.*.ac.uk scheme), adding the laptop’s MAC address to generate a device-specific password.
 
 ## Result
 I currently use the generated password to automatically connect to the WPA-PSK (an SSID titled ‘_*-PSK_’) network. While this is to be renewed every 12 months, this provided a reasonable solution to my connectivity issue.
+
+# Wait... is this legal?
+
 
 # Bonus content: using WireGuard VPN
 `NetworkManager` can also be used to handle VPNs using its TUI. While it does not provide simple drop-downs to select regions out of the box, Wireguard/OpenVPN configuration entries can be added for each of the ones desired by following instructions found [here](https://blogs.gnome.org/thaller/2019/03/15/wireguard-in-networkmanager/):
