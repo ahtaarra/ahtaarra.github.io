@@ -1,0 +1,18 @@
+<!-- License-Id: CC0-1.0 -->
+<section class="webring">
+  <h2>Articles from blogs I follow</h2>
+  <section class="articles">
+    {{range .Articles}}
+    <div class="article">
+      <h4 class="title" dir="auto">
+        <a href="{{.Link}}" target="_blank" rel="noopener">{{.Title}}</a>
+      </h4>
+      <p class="summary" dir="auto">{{.Summary}}</p>
+      <small class="source">
+        via <a href="{{.SourceLink}}">{{.SourceTitle}}</a>
+      </small>
+      <small class="date">{{.Date | datef "January 2, 2006"}}</small>
+    </div>
+    {{end}}
+  </section>
+</section>

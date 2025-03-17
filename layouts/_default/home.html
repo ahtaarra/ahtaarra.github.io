@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <ul class="article-list">
+  {{ range site.RegularPages }}
+  <li class="article-list-item">
+    <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+    <p class="article-time">{{ .Date.Format "2 Jan, 2006" }} • {{ .ReadingTime }} min read</p>
+    <div class="summary">
+      <p>{{ .Summary | plainify | htmlUnescape | replaceRE "\\s+$" ""  }}{{ if .Truncated }}...{{ end }}</p>
+    </div>
+  </li>
+  {{ end }}
+  </ul>
+{{ end }}
