@@ -4,7 +4,7 @@ name: Build and Deploy Hugo Site with OpenRing
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["trial"]
+    branches: ["master"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
