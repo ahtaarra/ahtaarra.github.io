@@ -1,0 +1,9 @@
+{{ if hugo.IsProduction }}
+    {{ range $robot := .Site.Params.robots }}
+    User-agent: {{ $robot }}
+    Disallow: /
+    {{end}}
+{{ else }}
+    User-agent: *
+    Disallow: /
+{{ end }}
