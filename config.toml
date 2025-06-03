@@ -13,7 +13,7 @@ home = ["HTML", "RSS"]
 
 [params]
   description = "īeġ, home to Taskin's personal ramblings"
-  ogImage = "Oilify.png"
+  ogImage = "https://ahanaftaskinarrafee.com/Oilify.png"
   ogImagealt = "Oilified portrait of īeġ author and webmaster Taskin, with the subject unrecognisable"
   fediCreator = "@taskin@mastodon.social"
 
