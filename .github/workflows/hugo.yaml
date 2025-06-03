@@ -1,5 +1,5 @@
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Build and Deploy Hugo Site with OpenRing
+name: Build and Deploy Hugo Site #with OpenRing
 
 on:
   # Runs on pushes targeting the default branch
@@ -19,7 +19,7 @@ permissions:
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 # Default to bash
 defaults:
@@ -48,32 +48,32 @@ jobs:
         with:
           GO_VERSION: 'latest'
           
-      - name: Build OpenRing
-        run: |
-          git clone https://git.sr.ht/~sircmpwn/openring
-          cd openring
-          go build -o openring
-          sudo mv openring /usr/local/bin/
+      # - name: Build OpenRing
+      #   run: |
+      #     git clone https://git.sr.ht/~sircmpwn/openring
+      #     cd openring
+      #     go build -o openring
+      #     sudo mv openring /usr/local/bin/
 
-      - name: Generate Webring Output
-        run: |
-          /usr/local/bin/openring \
-            -s https://www.calishat.com/feed \
-            -s https://daringfireball.net/feeds/main \
-            -s https://drewdevault.com/blog/index.xml \
-            -s https://decoded.legal/blog/index.xml \
-            -s https://emersion.fr/blog/rss.xml \
-            -s https://neilzone.co.uk/index.xml \
-            -s https://www.404media.co/rss \
-            -s https://www.techdirt.com/feed \
-            -s https://sifted.eu/feed?post_type=article \
-            -s https://restofworld.org/feed/latest \
-            -s https://uniquehazards.com/feed.xml \
-            -s https://annoying.technology/index.xml \
-            -s https://hacks.mozilla.org/feed/ \
-            -s https://www.phoronix.com/rss.php \
-            < ./webring-in.template \
-            > ./layouts/partials/webring-out.html
+      # - name: Generate Webring Output
+      #   run: |
+      #     /usr/local/bin/openring \
+      #       -s https://www.calishat.com/feed \
+      #       -s https://daringfireball.net/feeds/main \
+      #       -s https://drewdevault.com/blog/index.xml \
+      #       -s https://decoded.legal/blog/index.xml \
+      #       -s https://emersion.fr/blog/rss.xml \
+      #       -s https://neilzone.co.uk/index.xml \
+      #       -s https://www.404media.co/rss \
+      #       -s https://www.techdirt.com/feed \
+      #       -s https://sifted.eu/feed?post_type=article \
+      #       -s https://restofworld.org/feed/latest \
+      #       -s https://uniquehazards.com/feed.xml \
+      #       -s https://annoying.technology/index.xml \
+      #       -s https://hacks.mozilla.org/feed/ \
+      #       -s https://www.phoronix.com/rss.php \
+      #       < ./webring-in.template \
+      #       > ./layouts/partials/webring-out.html
 
       - name: Setup Pages
         id: pages
