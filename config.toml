@@ -12,8 +12,14 @@ home = ["HTML", "RSS"]
 
 
 [params]
+  description = "īeġ, home to Taskin's personal ramblings"
+  ogImage = "Oilify.png"
+  ogImagealt = "Oilified portrait of īeġ author and webmaster Taskin, with the subject unrecognisable"
+  fediCreator = "@taskin@mastodon.social"
+
   [params.author]
     name = 'Ahanaf Taskin Ar-Rafee'
+    email = 'ahanaftaskinarrafee@gmail.com'
 
 [[menu.main]]
   identifier = "posts"
