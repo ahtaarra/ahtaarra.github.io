@@ -1,6 +1,6 @@
 {{ define "main" }}
 <article class="article article-main">
-  <h1>{{ .Title }}</h1>
+  <h1>{{ .Title | markdownify }}</h1>
   {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
   {{ $dateHuman := .Date | time.Format ":date_long" }}
   <p class="article-time"><time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time> • {{ .ReadingTime }} min read</p>
